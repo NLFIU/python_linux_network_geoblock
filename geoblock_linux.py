@@ -1,6 +1,8 @@
 # This program scans all IPs connected to the machine to determine if it's coming from
 # a sanctioned Country and blocks the IP in the firewall. Linux only (Works with iptables)
 
+# IMPORTANT: Please do install the requests library. This can be done with pip install requests. If you do not, the code will not work.
+
 # Needed functions
 import requests
 import subprocess
